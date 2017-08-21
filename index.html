@@ -1,222 +1,129 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <title>HackSlash</title>
+---
+layout: default
+title: HackSlash
+description: HackSlash home page
+id: home
+---
+<div class="container">
+  <div id="main-cover" class="demo-card-image mdl-card mdl-shadow--2dp">
+    <div class="mdl-card__title mdl-card--expand"></div>
+    <div class="mdl-card__actions">
+      <span class="event-title">HackSlash Linux Day<br>1 September, Friday | JECRC Campus<br><br></span>
+      <span class="event-details">#TheLinuxDay is an across college Linux Introduction day showcasing the power of Linux and helping you install linux on your machine.<br></span>
+      <button class="mdl-button mdl-js-button mdl-button--raised">
+        Button
+      </button>
+    </div>
+  </div>
 
-    <link href="assets/images/logo-rabbit-small.png" rel="icon" type="image/png" />
-
-    <meta name="author" content="midhruvjaink" />
-    <!--robot-->
-    <meta content="index, follow" name="robots" />
-    <meta content="1 days" name="revisit-after" />
-    <meta content="all" name="robots" />
-    <meta content="all" name="googlebot" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-    <link rel="stylesheet" href="assets/stylesheets/styles.min.css">
-  </head>
-  <body>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header">
-        <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title"><img id="main-logo" src="assets/images/logo-rabbit-small.png"></span>
-          <!-- Add spacer, to align navigation to the right -->
-          <!-- Navigation. We hide it in small screens. -->
-          <nav class="mdl-navigation mdl-layout--large-screen-only">
-            <a class="mdl-navigation__link active-nav" href="index.html">Home</a>
-            <a class="mdl-navigation__link" href="courses-index.html">Courses Index</a>
-            <a class="mdl-navigation__link" href="blog.html">Blog</a>
-            <a class="mdl-navigation__link" href="team.html">Team</a>
-            <a class="mdl-navigation__link" href="contact-us.html">Contact Us</a>
-          </nav>
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
+      <div class="sub-covers demo-card-square mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title mdl-card--expand" id="join">
         </div>
-      </header>
-      <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-        <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="index.html">Home</a>
-          <a class="mdl-navigation__link" href="courses-index.html">Courses Index</a>
-          <a class="mdl-navigation__link" href="blog.html">Blog</a>
-          <a class="mdl-navigation__link" href="team.html">Team</a>
-          <a class="mdl-navigation__link" href="contact-us.html">Contact Us</a>
-        </nav>
+        <div class="mdl-card__supporting-text">
+          Join HackSlash and be a part of the community and enjoy the benefits of team coding.
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+            Join
+          </a>
+        </div>
       </div>
-      <main class="mdl-layout__content">
-        <div class="page-content">
-          <div class="dev-header">
-            <div class="dev-header-background">
-              <div class="dev-background mdl-shadow--4dp">
-                <img src="assets/images/logo-snake.png">
-              </div>
-            </div>
-          </div>
-
-          <div class="container">
-            <div class="demo-card-image mdl-card mdl-shadow--2dp">
-              <div class="mdl-card__title mdl-card--expand"></div>
-              <div class="mdl-card__actions">
-                <span class="event-title">HackSlash Linux Day<br>1 September, Friday | JECRC Campus<br><br></span>
-                <span class="event-details">#TheLinuxDay is an across college Linux Introduction day showcasing the power of Linux and helping you install linux on your machine.<br></span>
-                <button class="mdl-button mdl-js-button mdl-button--raised">
-                  Button
-                </button>
-              </div>
-            </div>
-
-            <div class="mdl-grid">
-              <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
-                <div class="demo-card-square mdl-card mdl-shadow--2dp">
-                  <div class="mdl-card__title mdl-card--expand" id="join">
-                  </div>
-                  <div class="mdl-card__supporting-text">
-                    Join HackSlash and be a part of the community and enjoy the benefits of team coding.
-                  </div>
-                  <div class="mdl-card__actions mdl-card--border">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                      Join
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
-                <div class="demo-card-square mdl-card mdl-shadow--2dp">
-                  <div class="mdl-card__title mdl-card--expand" id="slack-join">
-                  </div>
-                  <div class="mdl-card__supporting-text">
-                    Join the Official <i>Slack</i> channel and participate in discussion with other members of the community.
-                  </div>
-                  <div class="mdl-card__actions mdl-card--border">
-                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://join.slack.com/t/jecrccc/shared_invite/MjI5MDcwODEyNjEzLTE1MDMxNTA0NTUtZGUxNzZmOTUzYw">
-                      Join Slack
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div id="main">
-            <div class="content">
-              <div class="title">
-                Learn, Build, Compete and Contribute with <span>HackSlash</span>
-              </div>
-              <div id="learn-dev">
-                <div class="mdl-grid">
-                  <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone" id="learn">
-                    <h3>Learn - </h3>
-                    <div class="description">
-                      <h4>Learn Programming Skills</h4>
-                      <p>We have build some exceptional courseworks and PSETs to help you learn new skills and programming.</p>
-                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-shadow--2dp" href="course-index.html">
-                        Course Index
-                      </a>
-                    </div>
-                  </div>
-                  <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
-                    <img class="dev-images" src="assets/images/learn.png">
-                  </div>
-                </div>
-              </div>
-
-              <div id="build-dev">
-                <div class="mdl-grid">
-                  <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
-                    <img class="dev-images" src="assets/images/build.png">
-                  </div>
-                  <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone" id="build">
-                    <h3>Build - </h3>
-                    <div class="description">
-                      <h4>Build higher-quality app</h4>
-                      <p>We have your basics covererd up, now build great applications with a wide range of tools and frameworks and showcase your skills.</p>
-                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-shadow--2dp" href="https://github.com/hackslashjecrc/">
-                        Join Org
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div id="compete-dev">
-                <div class="mdl-grid">
-                  <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone" id="compete">
-                    <h3>Compete - </h3>
-                    <div class="description">
-                      <h4>Tap into the world of Sports Programming</h4>
-                      <p>We got you learn, practise coding, now fight like a knight world's leading coding competetions and name a flag.</p>
-                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-shadow--2dp" href="compete.html">
-                        Fight
-                      </a>
-                    </div>
-                  </div>
-                  <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
-                    <img class="dev-images" src="assets/images/compete.png">
-                  </div>
-                </div>
-              </div>
-
-              <div id="contribute-dev">
-                <div class="mdl-grid">
-                  <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
-                    <img class="dev-images" src="assets/images/contribute.png">
-                  </div>
-                  <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone" id="contribute">
-                    <h3>Contribute - </h3>
-                    <div class="description">
-                      <h4>Be the Change</h4>
-                      <p>Apply your knowledge and experince contributing to Open Source projects and be a part of the change.</p>
-                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-shadow--2dp" href="https://github.com/hackslashjecrc/">
-                        Join Org
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-          <!--main-->
-
-          <footer>
-            <div class="mdl-grid">
-              <div class="mld-cell mdl-cell--4-col mdl-cell--12-col-phone" id="connect">
-                Connect<br>
-                <a href="blog.html">
-                  Blog
-                </a><br>
-                <a href="https://facebook.com/hackslashjecrc">
-                  Facebook
-                </a><br>
-                <a href="https://twitter.com/hackslashjecrc">
-                  Twitter
-                </a>
-              </div>
-
-              <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-phone" id="programs">
-                Programs<br>
-                <a href="linux-day.html">
-                  Linux Day
-                </a>
-              </div>
-
-              <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-phone" id="mark">
-                <img src="assets/images/logo-snake.png" width="100%">
-              </div>
-
-            </div>
-          </footer>
-
-          <div id="credits">
-            <span>Designed & Developed by <a href="https://maddhruv.github.io/">Dhruv Jain</a></span>
-          </div>
-        </div>
-      </main>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-  </body>
-</html>
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
+      <div class="sub-covers demo-card-square mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title mdl-card--expand" id="slack-join">
+        </div>
+        <div class="mdl-card__supporting-text">
+          Join the Official <i>Slack</i> channel and participate in discussion with other members of the community.
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://join.slack.com/t/jecrccc/shared_invite/MjI5MDcwODEyNjEzLTE1MDMxNTA0NTUtZGUxNzZmOTUzYw">
+            Join Slack
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="main">
+  <div class="content">
+    <div class="title">
+      Learn, Build, Compete and Contribute with <span>HackSlash</span>
+    </div>
+    <div id="learn-dev">
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone" id="learn">
+          <h3>Learn - </h3>
+          <div class="description">
+            <h4>Learn Programming Skills</h4>
+            <p>We have build some exceptional courseworks and PSETs to help you learn new skills and programming.</p>
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-shadow--2dp" href="course-index.html">
+              Course Index
+            </a>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
+          <img class="dev-images" src="assets/images/learn.png">
+        </div>
+      </div>
+    </div>
+
+    <div id="build-dev">
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
+          <img class="dev-images" src="assets/images/build.png">
+        </div>
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone" id="build">
+          <h3>Build - </h3>
+          <div class="description">
+            <h4>Build higher-quality app</h4>
+            <p>We have your basics covererd up, now build great applications with a wide range of tools and frameworks and showcase your skills.</p>
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-shadow--2dp" href="https://github.com/hackslashjecrc/">
+              Join Org
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="compete-dev">
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone" id="compete">
+          <h3>Compete - </h3>
+          <div class="description">
+            <h4>Tap into the world of Sports Programming</h4>
+            <p>We got you learn, practise coding, now fight like a knight world's leading coding competetions and name a flag.</p>
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-shadow--2dp" href="compete.html">
+              Fight
+            </a>
+          </div>
+        </div>
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
+          <img class="dev-images" src="assets/images/compete.png">
+        </div>
+      </div>
+    </div>
+
+    <div id="contribute-dev">
+      <div class="mdl-grid">
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone">
+          <img class="dev-images" src="assets/images/contribute.png">
+        </div>
+        <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-phone" id="contribute">
+          <h3>Contribute - </h3>
+          <div class="description">
+            <h4>Be the Change</h4>
+            <p>Apply your knowledge and experince contributing to Open Source projects and be a part of the change.</p>
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-shadow--2dp" href="https://github.com/hackslashjecrc/">
+              Join Org
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

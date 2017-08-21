@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    <meta name="description" content="{{ page.description }}">
+    <title>{{page.title}}</title>
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:site_name" content="HackSlash" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+    <meta property="og:url" content="https://HackSlashjecrc.github.io" />
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      {% include navigation.html %}
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          {% if page.id == "home" %}{% include header-cover.html %}{% endif %}
+          {{ content }}
+          {% include footer.html %}
+        </div>
+      </main>
+    </div>
+    {% include script.html %}
+  </body>
+</html>

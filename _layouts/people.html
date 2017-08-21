@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    <meta name="description" content="{{page.description}}">
+    <title>{{page.title}}</title>
+    <meta property="og:title" content="{{page.title}}" />
+    <meta property="og:site_name" content="HackSlash" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+    <meta property="og:url" content="https://HackSlashjecrc.github.io" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      {% include navigation.html %}
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <div class="people-detail mdl-shadow--2dp">
+            <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--3-col avatar">
+                <img class="mdl-shadow--2dp" src="/assets/people/{{ page.img }}">
+              </div>
+              <div class="mdl-cell mdl-cell--9-col">
+                <h2>{{ page.person }}</h2>
+                <p class="designation">{{ page.designation }}</p>
+                <p>{{ page.branch }}</p>
+                <div class="social">
+                  {% if page.website != null %}
+                  <a href="{{ page.website }}">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                  </a>
+                  {% endif %}
+                  <a href="mailto:{{ page.email }}">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                  </a>
+                  {% if page.facebook != null %}
+                  <a href="https://facebook.com/{{ page.facebook }}">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                  </a>
+                  {% endif %}
+                  {% if page.twitter != null %}
+                  <a href="https://twitter.com/{{ page.twitter }}">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                  {% endif %}
+                  {% if page.github != null %}
+                  <a href="https://github.com/{{ page.github }}">
+                    <i class="fa fa-github-square" aria-hidden="true"></i>
+                  </a>
+                  {% endif %}
+                </div>
+
+                <div class="about">
+                  <div class="skills">
+                    <h3>Skills</h3>
+                    {% for person in page.skills %}
+                      <p>{{ person.skill }}</p>
+                    {% endfor %}
+                  </div>
+                  <div class="bio">
+                    <h3>Biography</h3>
+                    <p>{{ page.bio }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% include footer.html %}
+        </div>
+      </main>
+    </div>
+    {% include script.html %}
+  </body>
+</html>

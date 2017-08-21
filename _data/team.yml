@@ -1,0 +1,34 @@
+- id: midhruvjaink
+  name: Dhruv Jain
+  img: midhruvjaink.jpg
+  branch: Computer Science
+  role: Senior Advocate
+  skills: Web and Mobile App Developer, Python
+
+- id: hdixit
+  name: Himanshu Dixit
+  img: hdixit.jpg
+  branch: Information Technology
+  role: Chief Manager
+  skills: Web Developer, Python
+
+- id: asmigos
+  name: Asmita Goswami
+  img: asmigos.jpg
+  branch: Information Technology
+  role: Head of Promotion Solutions and Relations
+  skills: Android Development, Python, C/C++
+
+- id: lukiee
+  name: Lokesh Soni
+  img: lukiee.jpeg
+  branch: Information Technology
+  role: Senior Project Manager
+  skills: Android & iOS Developer
+
+- id: akku
+  name: Aakansha Jain
+  img: akku.jpeg
+  branch: Computer Science
+  role: Community Relations and Social Media Handler
+  skills: Web Development, Python, C/C++

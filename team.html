@@ -1,0 +1,30 @@
+---
+layout: default
+title: Team - HackSlash
+description: Team - HackSlash
+id: team
+---
+<h1 id="team-head">Team HackSlash</h1>
+<div class="team-div">
+  <div id="team" class="mdl-grid">
+    {% for person in site.data.team %}
+      <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-phone">
+        <div class="person mdl-shadow--2dp">
+          <a href="people/{{ person.id }}">
+            <div class="person-header">
+              <img src="/assets/people/{{ person.img }}" alt="{{ person.name }} {{ person.branch }} {{ person.skills }}">
+              <h4>{{ person.name }}</h4>
+              <p>{{ person.branch }}</p>
+            </div>
+            <div class="person-footer">
+              <span class="person-role">{{ person.role }}</span>
+              <div>
+                <span class="person-skills">{{ person.skills }}</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

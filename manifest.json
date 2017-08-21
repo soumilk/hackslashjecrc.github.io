@@ -1,0 +1,31 @@
+{
+  "short_name": "HackSlash",
+  "name":"HackSlash - JECRC Coding Community",
+  "icons":[
+    {
+      "src":"assets/images/logo-32.png",
+      "sizes":"32x32",
+      "type":"image/png"
+    },
+    {
+      "src":"assets/images/logo-64.png",
+      "sizes":"64x64",
+      "type":"image/png"
+    },
+    {
+      "src":"assets/images/logo-128.png",
+      "sizes":"128x128",
+      "type":"image/png"
+    },
+    {
+      "src":"assets/images/logo-256.png",
+      "sizes":"256x256",
+      "type":"image/png"
+    }
+  ],
+  "start_url":"index",
+  "display":"standalone",
+  "orientation":"portrait",
+  "theme_color": "#DF2824",
+  "background_color": "#fff"
+}

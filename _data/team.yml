@@ -32,7 +32,7 @@
   branch: Computer Science
   role: Community Relations and Social Media Handler
   skills: Web Development, Python, C/C++
-  
+
 - id: shiv
   name: Shiv Soni
   img: shiv.jpg
@@ -46,10 +46,10 @@
   branch: Computer Science
   role: Team Member
   skills: Android Development, Python.
-  
- - id: amritsrivastava
+
+- id: amritsrivastava
   name: Amrit Srivastava
   img: amrit.jpg
   branch: Computer Science
   role: Team Member
-  skills: Web Devlopment, C/C++. 
+  skills: Web Devlopment, C/C++.

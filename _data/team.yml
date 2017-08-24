@@ -39,3 +39,10 @@
   branch: Computer Science
   role: Team Member
   skills: Android Development, Python.
+  
+  - id: amritsrivastava
+  name: Amrit Srivastava
+  img: amrit.jpg
+  branch: Computer Science
+  role: Team Member
+  skills: Web Development, C/C++.

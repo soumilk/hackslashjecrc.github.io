@@ -53,3 +53,17 @@
   branch: Computer Science
   role: Team Member
   skills: Web Devlopment, C/C++.
+
+- id: adityaagarwal
+  name: Aditya Agarwal
+  img: adityaagarwal.jpg
+  branch: Computer Science
+  role: Team Member
+  skills: C/C++.
+
+- id: anushree
+  name: Anushree Sharma
+  img: anushree.jpg
+  branch: Electronics and Communication
+  role: Team Member
+  skills: C/C++.

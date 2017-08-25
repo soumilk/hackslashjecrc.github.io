@@ -6,7 +6,7 @@ licenseUrl: http://opensource.org/licenses/MIT
 
 favicon: png
 
-exclude: ['README.md', 'LICENSE', 'Gemfile.lock', 'Gemfile']
+exclude: ['README.md', 'LICENSE', 'Gemfile.lock', 'Gemfile', 'vendor']
 
 encoding: "utf-8"
 markdown: kramdown

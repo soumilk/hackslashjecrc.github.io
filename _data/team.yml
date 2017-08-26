@@ -54,13 +54,13 @@
   role: Team Member
   skills: Android Development, Python, C/C++
 
-- id: amritsrivastava
+- id: amrit
   name: Amrit Srivastava
   img: amrit.jpg
   branch: Computer Science
   role: Team Member
-  skills: Web Devlopment, C/C++.
-
+  skills: Android Devlopment, Python.
+  
 - id: adityaagarwal
   name: Aditya Agarwal
   img: adityaagarwal.jpg

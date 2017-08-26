@@ -47,6 +47,13 @@
   role: Team Member
   skills: Android Development, Python.
 
+- id: alex
+  name: Akash Lakhera
+  img: alex.jpg
+  branch: Computer Science
+  role: Team Member
+  skills: Android Development, Python, C/C++
+
 - id: amritsrivastava
   name: Amrit Srivastava
   img: amrit.jpg

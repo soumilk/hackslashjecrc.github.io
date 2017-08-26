@@ -1,12 +1,13 @@
 name: HackSlash
 description: HackSlash - JECRC
+url: http://hackslash.org
 
 license: MIT License
 licenseUrl: http://opensource.org/licenses/MIT
 
 favicon: png
 
-exclude: ['README.md', 'LICENSE', 'Gemfile.lock', 'Gemfile']
+exclude: ['README.md', 'LICENSE', 'Gemfile.lock', 'Gemfile', 'vendor']
 
 encoding: "utf-8"
 markdown: kramdown
@@ -20,3 +21,9 @@ medium: HackSlash
 instagram: HackSlashJECRC
 meetup: HackSlashJECRC
 youtube: HackSlashJECRC
+
+sitemap:
+    filename: "sitemap.xml"
+    include_posts:
+        - "/index.html"
+        - "/events/index.html"

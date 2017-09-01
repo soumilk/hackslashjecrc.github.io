@@ -28,7 +28,7 @@
 
 - id: akku
   name: Aakanksha Jain
-  img: akku.jpeg
+  img: akku.jpg
   branch: Computer Science
   role: Community Relations and Social Media Handler
   skills: Web Development, Python, C/C++
@@ -82,10 +82,16 @@
   role: Team Member
   skills: C/C++.
   
-  - id: Aishwaryabansal
+- id: yukti
+  name: Yukti Goswami
+  img: yukti.jpg
+  branch: Computer Science
+  role: Team Member
+  skills: Web Development,C/C++
+  
+- id: Aishwaryabansal
   name: Aishwarya Bansal
   img: aishwarya.jpg
   branch: Electronics and Communication
   role: Team Member
   skills: C/C++.
-  

@@ -80,7 +80,7 @@
   img: samyak.jpg
   branch: Computer Science
   role: Team Member
-  skills: C/C++.  
+  skills: C/C++.
   
 - id: yukti
   name: Yukti Goswami
@@ -88,4 +88,10 @@
   branch: Computer Science
   role: Team Member
   skills: Web Development,C/C++
-
+  
+- id: Aishwaryabansal
+  name: Aishwarya Bansal
+  img: aishwarya.jpg
+  branch: Electronics and Communication
+  role: Team Member
+  skills: C/C++.

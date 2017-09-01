@@ -74,24 +74,31 @@
   branch: Electronics and Communication
   role: Team Member
   skills: C/C++.
-  
+
 - id: samyak
   name: Samyak Jain
   img: samyak.jpg
   branch: Computer Science
   role: Team Member
   skills: C/C++.
-  
+
 - id: yukti
   name: Yukti Goswami
   img: yukti.jpg
   branch: Computer Science
   role: Team Member
   skills: Web Development,C/C++
-  
+
 - id: Aishwaryabansal
   name: Aishwarya Bansal
   img: aishwarya.jpg
   branch: Electronics and Communication
   role: Team Member
   skills: C/C++.
+
+- id: jatinkhemchandani
+  name: Jatin Khemchandani
+  img: jk.jpg
+  branch: Computer Science
+  role: Team Member
+  skills: c/c++, html/css
